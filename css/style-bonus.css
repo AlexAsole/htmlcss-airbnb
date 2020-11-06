@@ -9,42 +9,43 @@
   margin: 0 auto;
   position: relative;
   height: 100vh;
+
 }
 /* Immagine Roma */
 .roma{
-  margin: 10px;
-  width: 90%;
-  height: 90%;
+  width: 99%;
+  height: 99%;
   background-image: url(../img/roma.jpg);
   background-size: cover;
   transform: translate(-50%, -50%);
   position: absolute;
   top: 50%;
   left: 50%;
+  box-shadow: 4px 4px 8px red;
 }
 /* Immagine Firenze */
 .firenze{
-  margin: 10px;
-  width: 90%;
-  height: 90%;
+  width: 99%;
+  height: 99%;
   background-image: url(../img/firenze.jpg);
   background-size: cover;
   transform: translate(-50%, -50%);
   position: absolute;
   top: 50%;
   left: 50%;
+  box-shadow: 4px 4px 8px red;
 }
 /* Immagine Venezia */
 .venezia{
-  margin: 10px;
-  width: 90%;
-  height: 90%;
+  width: 99%;
+  height: 99%;
   background-image: url(../img/venezia.jpg);
   background-size: cover;
   transform: translate(-50%, -50%);
   position: absolute;
   top: 50%;
   left: 50%;
+  box-shadow: 4px 4px 8px red;
 }
 /* Opacità */
 .opaco{
@@ -60,7 +61,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 70px;
-  text-shadow: 4px 4px red;
+  text-shadow: 4px 4px 8px #9147ff;
 }
 /* Switch Opacità */
 .roma:hover .opaco{
