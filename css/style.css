@@ -10,6 +10,7 @@
   position: relative;
   height: 100vh;
 }
+/* Immagine Roma */
 .roma{
   width: 100vw;
   height: 100vh;
@@ -20,6 +21,7 @@
   top: 50%;
   left: 50%;
 }
+/* Immagine Firenze */
 .firenze{
   width: 100vw;
   height: 100vh;
@@ -30,6 +32,7 @@
   top: 50%;
   left: 50%;
 }
+/* immagine Venezia */
 .venezia{
   width: 100vw;
   height: 100vh;
@@ -40,12 +43,14 @@
   top: 50%;
   left: 50%;
 }
+/* Opacità */
 .opaco{
   width: 100wh;
   height: 100vh;
   background: black;
   opacity: 0.5;
 }
+/* Scritta centrale */
 .scritta{
   color: white;
   position: absolute;
