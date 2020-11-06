@@ -11,8 +11,8 @@
   height: 100vh;
 }
 .roma{
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-image: url(../img/roma.jpg);
   background-size: cover;
   transform: translate(-50%, -50%);
@@ -21,8 +21,8 @@
   left: 50%;
 }
 .firenze{
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-image: url(../img/firenze.jpg);
   background-size: cover;
   transform: translate(-50%, -50%);
@@ -31,12 +31,19 @@
   left: 50%;
 }
 .venezia{
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-image: url(../img/venezia.jpg);
   background-size: cover;
   transform: translate(-50%, -50%);
   position: absolute;
   top: 50%;
   left: 50%;
+}
+.opaco{
+  width: 100wh;
+  height: 100vh;
+  background: black;
+  opacity: 0.5;
+
 }
